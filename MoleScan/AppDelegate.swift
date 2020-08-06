@@ -1,13 +1,12 @@
 //
 //  AppDelegate.swift
-//  MoleScan
+//  Mole Scan App
 //
-//  Created by 65,115,114,105,116,104,98 on 7/30/20.
-//  Copyright © 2020 Asritha Bodepudi. All rights reserved.
+//  Created by Vidushi Meel on 7/14/20.
 //
 
 import UIKit
-
+import RealmSwift
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -15,6 +14,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+              print(Realm.Configuration.defaultConfiguration.fileURL ?? "no location to realm file")
+              do{
+                  let _ = try Realm()
+              }
+              catch{
+                  print(error)
+              }
         return true
     }
 
