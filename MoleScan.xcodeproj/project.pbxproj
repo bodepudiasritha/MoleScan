@@ -7,25 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		899E5AFC24DB14F2002A2CDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 899E5AFB24DB14F2002A2CDD /* Assets.xcassets */; };
 		899E5B0024DB7AA7002A2CDD /* moleScanDetectorModel1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 899E5AFF24DB7AA7002A2CDD /* moleScanDetectorModel1.mlmodel */; };
 		89E9223024D3361300241928 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E9222F24D3361300241928 /* AppDelegate.swift */; };
 		89E9223224D3361300241928 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E9223124D3361300241928 /* SceneDelegate.swift */; };
 		89E9223424D3361300241928 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E9223324D3361300241928 /* ViewController.swift */; };
 		89E9223724D3361300241928 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89E9223524D3361300241928 /* Main.storyboard */; };
 		89E9223C24D3361A00241928 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89E9223A24D3361A00241928 /* LaunchScreen.storyboard */; };
-		89E9224424D336E500241928 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E9224324D336E500241928 /* SecondViewController.swift */; };
 		89E9226A24D341B000241928 /* BodyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E9226924D341B000241928 /* BodyViewController.swift */; };
 		89E9226C24D358EC00241928 /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E9226B24D358EC00241928 /* Entry.swift */; };
 		89E9226E24D3757100241928 /* DisplayImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E9226D24D3757000241928 /* DisplayImageViewController.swift */; };
-		AEB060A952B0275C7A3A8B64 /* Pods_MoleScan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DDBA22B9AD15C074ADBCD67 /* Pods_MoleScan.framework */; };
+		F725F86A2509D5C6002FC632 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F725F8692509D5C6002FC632 /* Assets.xcassets */; };
+		F725F86C2509D67C002FC632 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F725F86B2509D67C002FC632 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1B3D3DAA09D9BB7E9EA61B7E /* Pods-MoleScan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoleScan.debug.xcconfig"; path = "Target Support Files/Pods-MoleScan/Pods-MoleScan.debug.xcconfig"; sourceTree = "<group>"; };
-		4DDBA22B9AD15C074ADBCD67 /* Pods_MoleScan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoleScan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6F4F5A88DFB69A63D1C93790 /* Pods-MoleScan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoleScan.release.xcconfig"; path = "Target Support Files/Pods-MoleScan/Pods-MoleScan.release.xcconfig"; sourceTree = "<group>"; };
-		899E5AFB24DB14F2002A2CDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../Downloads/fuckme-master/fuckme/Assets.xcassets"; sourceTree = "<group>"; };
 		899E5AFF24DB7AA7002A2CDD /* moleScanDetectorModel1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = moleScanDetectorModel1.mlmodel; sourceTree = "<group>"; };
 		89E9222C24D3361300241928 /* MoleScan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoleScan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89E9222F24D3361300241928 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -34,10 +29,11 @@
 		89E9223624D3361300241928 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		89E9223B24D3361A00241928 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89E9223D24D3361A00241928 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		89E9224324D336E500241928 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SecondViewController.swift; path = "../../../Downloads/Mole Scan App 5/SecondViewController.swift"; sourceTree = "<group>"; };
 		89E9226924D341B000241928 /* BodyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyViewController.swift; sourceTree = "<group>"; };
 		89E9226B24D358EC00241928 /* Entry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
 		89E9226D24D3757000241928 /* DisplayImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayImageViewController.swift; sourceTree = "<group>"; };
+		F725F8692509D5C6002FC632 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../../../Volumes/G-DRIVE mobile USB-C/Assets.xcassets"; sourceTree = "<group>"; };
+		F725F86B2509D67C002FC632 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SecondViewController.swift; path = "../../../../../Volumes/G-DRIVE mobile USB-C/MoleScan 2/SecondViewController.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,7 +41,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEB060A952B0275C7A3A8B64 /* Pods_MoleScan.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,7 +53,6 @@
 				89E9222E24D3361300241928 /* MoleScan */,
 				89E9222D24D3361300241928 /* Products */,
 				D020E2B12665E40540E1D068 /* Pods */,
-				9C13E35E72CD6AA5483FF012 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,30 +72,20 @@
 				89E9222F24D3361300241928 /* AppDelegate.swift */,
 				89E9223124D3361300241928 /* SceneDelegate.swift */,
 				89E9223324D3361300241928 /* ViewController.swift */,
-				89E9224324D336E500241928 /* SecondViewController.swift */,
+				F725F86B2509D67C002FC632 /* SecondViewController.swift */,
 				89E9226924D341B000241928 /* BodyViewController.swift */,
 				89E9226D24D3757000241928 /* DisplayImageViewController.swift */,
 				89E9223524D3361300241928 /* Main.storyboard */,
-				899E5AFB24DB14F2002A2CDD /* Assets.xcassets */,
+				F725F8692509D5C6002FC632 /* Assets.xcassets */,
 				89E9223A24D3361A00241928 /* LaunchScreen.storyboard */,
 				89E9223D24D3361A00241928 /* Info.plist */,
 			);
 			path = MoleScan;
 			sourceTree = "<group>";
 		};
-		9C13E35E72CD6AA5483FF012 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				4DDBA22B9AD15C074ADBCD67 /* Pods_MoleScan.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		D020E2B12665E40540E1D068 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				1B3D3DAA09D9BB7E9EA61B7E /* Pods-MoleScan.debug.xcconfig */,
-				6F4F5A88DFB69A63D1C93790 /* Pods-MoleScan.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -113,11 +97,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 89E9224024D3361A00241928 /* Build configuration list for PBXNativeTarget "MoleScan" */;
 			buildPhases = (
-				7A515292D8B8BDFD841B914E /* [CP] Check Pods Manifest.lock */,
 				89E9222824D3361300241928 /* Sources */,
 				89E9222924D3361300241928 /* Frameworks */,
 				89E9222A24D3361300241928 /* Resources */,
-				E32AA70BF96F221AEF1E6435 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -167,54 +149,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				89E9223C24D3361A00241928 /* LaunchScreen.storyboard in Resources */,
-				899E5AFC24DB14F2002A2CDD /* Assets.xcassets in Resources */,
+				F725F86A2509D5C6002FC632 /* Assets.xcassets in Resources */,
 				89E9223724D3361300241928 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		7A515292D8B8BDFD841B914E /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MoleScan-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E32AA70BF96F221AEF1E6435 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MoleScan/Pods-MoleScan-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MoleScan/Pods-MoleScan-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MoleScan/Pods-MoleScan-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		89E9222824D3361300241928 /* Sources */ = {
@@ -222,8 +162,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				89E9226C24D358EC00241928 /* Entry.swift in Sources */,
-				89E9224424D336E500241928 /* SecondViewController.swift in Sources */,
 				89E9226A24D341B000241928 /* BodyViewController.swift in Sources */,
+				F725F86C2509D67C002FC632 /* SecondViewController.swift in Sources */,
 				89E9223424D3361300241928 /* ViewController.swift in Sources */,
 				899E5B0024DB7AA7002A2CDD /* moleScanDetectorModel1.mlmodel in Sources */,
 				89E9223024D3361300241928 /* AppDelegate.swift in Sources */,
@@ -370,18 +310,17 @@
 		};
 		89E9224124D3361A00241928 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1B3D3DAA09D9BB7E9EA61B7E /* Pods-MoleScan.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Y6Y5HUHRPT;
+				DEVELOPMENT_TEAM = NTC9D823P9;
 				INFOPLIST_FILE = MoleScan/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.sreedharbodepudi.MoleScan1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sreedharbodepudi.MoleScan2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -390,18 +329,17 @@
 		};
 		89E9224224D3361A00241928 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6F4F5A88DFB69A63D1C93790 /* Pods-MoleScan.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Y6Y5HUHRPT;
+				DEVELOPMENT_TEAM = NTC9D823P9;
 				INFOPLIST_FILE = MoleScan/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.sreedharbodepudi.MoleScan1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sreedharbodepudi.MoleScan2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

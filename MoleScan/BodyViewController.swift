@@ -12,6 +12,11 @@ import RealmSwift
 class BodyViewController: UIViewController {
     let realm = try! Realm()
     
+    @IBOutlet weak var image: UIImageView!
+    @IBAction func someButton(_ sender: Any) {
+        image.isHidden = false
+
+    }
     @IBOutlet weak var bodyImage: UIImageView!
     var tap = UITapGestureRecognizer()
     var moleToPass = Entry()
@@ -23,6 +28,7 @@ class BodyViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        image.isHidden = true;
         
     }
     

@@ -2,9 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:MoleScan.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:Pods/Pods.xcodeproj">
+      location = "group:/Users/vidushimeel/Documents/MoleScan2022/MoleScan.xcodeproj">
    </FileRef>
 </Workspace>

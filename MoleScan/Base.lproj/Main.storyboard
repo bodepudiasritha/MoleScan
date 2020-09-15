@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="lQp-4w-e7x">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="lQp-4w-e7x">
     <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -15,8 +15,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Welcome to the Mole Scan App!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vG5-xC-VvG">
-                                <rect key="frame" x="35" y="238" width="345" height="198"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Welcome Screen" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vG5-xC-VvG">
+                                <rect key="frame" x="28" y="238" width="359" height="198"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="198" id="LvY-Bx-91l"/>
                                 </constraints>
@@ -39,6 +39,18 @@
                                     <segue destination="rGp-oj-985" kind="show" id="HIh-tR-V5H"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nFZ-h4-Xbw">
+                                <rect key="frame" x="289" y="678" width="87" height="95"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="press"/>
+                                <connections>
+                                    <action selector="someButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LRP-pl-Wq5"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="G1-Poly-G-440(175)" translatesAutoresizingMaskIntoConstraints="NO" id="g6H-w7-3A1">
+                                <rect key="frame" x="55" y="406" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.76078431372549016" green="0.8666666666666667" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
@@ -51,6 +63,9 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="NCV-5h-Rhq"/>
+                    <connections>
+                        <outlet property="imageView" destination="g6H-w7-3A1" id="OiW-CY-tXe"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -187,13 +202,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2020-07-30 at 1.55.53 PM" translatesAutoresizingMaskIntoConstraints="NO" id="Xsa-ic-rhu">
-                                <rect key="frame" x="125" y="82" width="164" height="454"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2020-09-12 at 9.55.47 AM" translatesAutoresizingMaskIntoConstraints="NO" id="J35-s1-GIL">
+                                <rect key="frame" x="0.0" y="186" width="312" height="484"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <gestureRecognizers/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2020-09-12 at 9.55.47 AM" translatesAutoresizingMaskIntoConstraints="NO" id="tQd-ud-ZzX">
+                                <rect key="frame" x="51" y="206" width="312" height="484"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2020-09-10 at 9.05.12 PM" translatesAutoresizingMaskIntoConstraints="NO" id="wFO-6U-fkI">
+                                <rect key="frame" x="0.0" y="53" width="414" height="843"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rEh-ha-Z8E">
-                                <rect key="frame" x="85" y="569" width="245" height="52"/>
+                                <rect key="frame" x="85" y="608" width="245" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
@@ -205,20 +227,36 @@
                                     <action selector="confirmButtonPressed:" destination="rGp-oj-985" eventType="touchUpInside" id="dsb-2L-FbZ"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1AO-yG-FUn">
+                                <rect key="frame" x="344" y="213" width="70" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="someButton:" destination="rGp-oj-985" eventType="touchUpInside" id="xlX-gs-RL7"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2020-09-12 at 9.55.47 AM" translatesAutoresizingMaskIntoConstraints="NO" id="a2a-xn-11g">
+                                <rect key="frame" x="31" y="186" width="332" height="423"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2020-09-12 at 9.53.22 AM" translatesAutoresizingMaskIntoConstraints="NO" id="vk8-C8-gNA">
+                                <rect key="frame" x="10" y="658" width="394" height="135"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="Z3U-bS-kY3"/>
                     </view>
                     <navigationItem key="navigationItem" id="smJ-wk-NnM"/>
                     <connections>
-                        <outlet property="bodyImage" destination="Xsa-ic-rhu" id="h6u-rQ-kdb"/>
+                        <outlet property="bodyImage" destination="wFO-6U-fkI" id="w0q-Ds-Two"/>
+                        <outlet property="image" destination="vk8-C8-gNA" id="gN5-99-VWf"/>
                         <segue destination="fuU-GX-8t2" kind="show" identifier="confirmButtonPressed" id="v1N-G4-i0s"/>
                         <segue destination="HaO-u3-7at" kind="presentation" identifier="displayMole" id="K3E-WJ-Y9B"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="y3M-5A-zza" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1934.7826086956522" y="103.53260869565219"/>
+            <point key="canvasLocation" x="1934.7826086956522" y="103.125"/>
         </scene>
         <!--Display Image View Controller-->
         <scene sceneID="FYZ-Ou-3g8">
@@ -282,6 +320,9 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Screen Shot 2020-07-30 at 1.55.53 PM" width="286" height="730"/>
+        <image name="G1-Poly-G-440(175)" width="1666.6666259765625" height="1666.6666259765625"/>
+        <image name="Screen Shot 2020-09-10 at 9.05.12 PM" width="207.33332824707031" height="450"/>
+        <image name="Screen Shot 2020-09-12 at 9.53.22 AM" width="405.33334350585938" height="91.333335876464844"/>
+        <image name="Screen Shot 2020-09-12 at 9.55.47 AM" width="376.66665649414062" height="480.66665649414062"/>
     </resources>
 </document>

@@ -12,9 +12,15 @@ class ViewController: UIViewController {
 
     let realm = try! Realm()
 
-   
+    @IBOutlet weak var imageView: UIImageView!
+    @IBAction func someButton(_ sender: Any) {
+        imageView.isHidden = false
+
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        imageView.isHidden = true
 
         // Do any additional setup after loading the view.
 
